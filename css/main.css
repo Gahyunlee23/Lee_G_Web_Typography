@@ -1,0 +1,130 @@
+
+.hidden { display: none; }
+
+main { width: 1024px; margin: 0 auto; }
+
+header {
+    background-image: url(../images/header_img.png);
+    background-repeat: no-repeat;
+
+    height: 224px;
+}
+
+body { 
+    font-size: 1rem;;
+    font-family: jaf-facitweb, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.main-title {
+    font-size: 3.5em;
+    font-family: jaf-facitweb, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    
+    position: relative; 
+    left: 60px;
+    top: 60px;
+}
+
+.main-title span {
+    color: #ffffff;
+}
+
+#main-img {
+    padding: 10px;
+    float: right;
+}
+
+.intro-text {
+    font-size: 1rem;
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+}
+
+.body-title {
+    font-size: 20px;
+    font-family: jaf-facitweb, sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.body-one {
+    width: 1000px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1em;
+}
+
+.left-text span { font-size: 1.8em; }
+
+.right-text { padding-left: 5px; }
+
+.body-two {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+
+.body-two img { padding: 10px; }
+
+.second-text {
+    width: 800px;
+    height: 100px;
+}
+
+.second-text h2 {
+    font-size: 1.5em;
+    font-family: jaf-facitweb, sans-serif;
+    font-weight: 700;
+    font-style: bold;   
+}
+
+.body-third h2 {
+    font-size: 2em;
+    font-family: jaf-facitweb, sans-serif;
+    font-weight: 700;
+    font-style: bold; 
+
+	background: linear-gradient(to bottom, #8608f2, #0c7fe1, #49e929, #f02121);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.body-third p {
+    width: 800px;
+    margin-left: 20px;
+    
+    background: linear-gradient(#f02121, #ebdf19, #49e929, #0c7fe1, #8608f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#body-three {
+    display: flex;
+    flex-direction: row;
+}
+
+#body-three img {
+    padding: 10px;
+}
+
+.body-fourth img {
+    float: right;
+}
+
+#last-text {
+    width: 400px;
+    margin: 10px;
+}
+
+#last-img {
+    float: right;
+}
